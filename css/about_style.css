@@ -1,0 +1,270 @@
+/* Project 05 CSS-GRID File */
+
+/* Structure Code */ 
+
+#grid {
+    z-index: 10;
+    margin:20px auto 20px auto;
+    width:1040px;
+    height:auto;
+    
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-columns: 270px 200px 200px 130px; 
+    grid-auto-rows: 230px 1000px 150px;
+    grid-template-areas: 
+    /*   * * * * *     *=200px */
+        "a b b b b"
+        "c c c c c"
+        "d d d d d";
+}
+
+#a, #b, #c, #d, #e {
+    z-index: 15;
+   
+}
+
+#a {
+    grid-area: a;    
+}
+
+#b {
+    grid-area: b;
+}
+
+#c {
+    grid-area: c;
+}
+
+#d {
+    grid-area: d;
+}
+
+
+
+/* Presentation Code */ 
+body {
+    color:#ebca97;
+    background-color: #c46b29;
+    font-family: 'Roboto', sans-serif;
+}
+
+#a, #b, #c, #d {
+    background-color: #a3481b; 
+    border: 2px solid #efa685; 
+}
+
+#a {
+    background-image: url(../images/logo01.jpg); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 270px 250px; 
+    
+  
+}
+
+#b {
+    padding: 10px; 
+    text-align: center; 
+}
+
+#b h1 {
+    margin-top: 70px; 
+    font-size: 36px; 
+    font-weight: bold; 
+}
+
+#c {
+  padding:10px;
+   
+}
+
+#c p {
+    
+    color: #e49d67; 
+    text-indent: 10px; 
+    font-size: 15px; 
+    line-height: 2em;
+    
+}
+
+#d {
+    padding:10px;
+    font-size: 24px; 
+    text-align: center;
+}
+
+#d h2 {
+    
+     margin-top: 50px; 
+}
+
+#d h3 {
+    font-size: 12px; 
+}
+
+
+
+/* Grid Areas
+
+#a {
+    grid-area: a;    
+}
+
+#b {
+    grid-area: b;
+}
+
+#c {
+    grid-area: c;
+}
+
+#d {
+    grid-area: d;
+}
+
+#e {
+    grid-area: e;
+}
+
+#f {
+    grid-area: f;
+}
+
+#g {
+    grid-area: g;
+}
+
+#h {
+    grid-area: h;
+}
+
+#i {
+    grid-area: i;
+}
+
+#j {
+    grid-area: j;
+}
+
+#k {
+    grid-area: k;
+}
+
+#l {
+    grid-area: l;
+}
+
+#m {
+    grid-area: m;
+}
+
+#n {
+    grid-area: n;
+}
+
+#o {
+    grid-area: o;
+}
+
+#p {
+    grid-area: p;
+}
+
+#q {
+    grid-area: q;
+}
+
+#r {
+    grid-area: r;
+}
+
+#s {
+    grid-area: s;
+}
+
+#t {
+    grid-area: t;
+}
+
+#u {
+    grid-area: u;
+}
+
+#v {
+    grid-area: v;
+}
+
+#w {
+    grid-area: w;
+}
+
+#x {
+    grid-area: x;
+}
+
+#y {
+    grid-area: y;
+}
+
+#z {
+    grid-area: z;
+}
+
+*/
+
+/* Color Palette
+
+
+
+*/
+
+/* Google Fonts
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Full Screen Image
+
+background-image:url(../images/);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #999;
+
+*/
+
+/*  Making a Fullscreen Video Background 
+
+#video-background{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+*/
+
+/* Individual Side Box Shadows
+
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+
+*/
